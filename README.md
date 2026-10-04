@@ -16,6 +16,14 @@ See ["Caching dependencies to speed up workflows"](https://docs.github.com/en/ac
 ## What's New
 
 ### ⚠️ Important changes
+---
+## License
+
+This project is dual-licensed under:
+
+* **Creative Commons Attribution 4.0** - for documentation and content in the assets, content, and data folders (see [LICENSE](LICENSE))
+* **MIT License** - for code (see [LICENSE-CODE](LICENSE-CODE))
+
 
 > [!IMPORTANT]
 > `actions/cache@v5` runs on the Node.js 24 runtime and requires a minimum Actions Runner version of `2.327.1`.
