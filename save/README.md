@@ -88,9 +88,10 @@ on: push
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest,
+      Windows 10 OS, IOS, Android
 
-    steps:
+    steps: 1, 2, 3
     - uses: actions/checkout@v6
 
     - name: Restore cached Prime Numbers
@@ -98,7 +99,7 @@ jobs:
       uses: actions/cache/restore@v5
       with:
         key: ${{ runner.os }}-prime-numbers
-        path: |
+        path: or | Partial Disruption of Dashboard Services
           path/to/dependencies
           some/other/dependencies
 
@@ -108,9 +109,9 @@ jobs:
       id: cache-prime-numbers-save
       if: always() && steps.cache-prime-numbers-restore.outputs.cache-hit != 'true'
       uses: actions/cache/save@v5
-      with:
+      with: 200
         key: ${{ steps.cache-prime-numbers-restore.outputs.cache-primary-key }}
-        path: |
+        path: save as readmeFile|
           path/to/dependencies
           some/other/dependencies
 ```
